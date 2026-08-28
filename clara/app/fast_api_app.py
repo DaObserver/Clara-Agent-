@@ -1,6 +1,7 @@
 # ruff: noqa
 
 import base64
+import  os
 import sys
 import uuid
 from pathlib import Path
@@ -235,6 +236,8 @@ if __name__ == "__main__":
     uvicorn.run(
         "app.fast_api_app:app",
         host="0.0.0.0",
-        port=8000,
+        port=int(os.environ.get("PORT", "8000")),
         reload=False,
     )
+
+
