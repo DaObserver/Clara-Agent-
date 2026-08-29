@@ -14,7 +14,7 @@ function App() {
   const [activeSection, setActiveSection] = useState("");
 
   const fileInputRef = useRef(null);
-  const API_BASE = "/api";
+  const API_BASE = "https://clara-backend-600669891269.us-east1.run.app";
 
   useEffect(() => {
     if (latestReview) {

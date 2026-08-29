@@ -23,4 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 clara/.env
-clara/clara-service-account.json
+clara/clara-service-account.json.firebase/
