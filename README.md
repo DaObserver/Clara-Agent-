@@ -4,6 +4,13 @@ Clara is an AI healthcare navigation agent that helps people understand medical 
 
 Clara is designed to explain and organize documented medical information — not diagnose conditions or replace a healthcare professional.
 
+## Live Links
+
+- **Live App:** https://clara-agent-2026.web.app/
+- **GitHub Repository:** https://github.com/DaObserver/Clara-Agent-
+- **Cloud Run Backend:** https://clara-backend-600669891269.us-east1.run.app/
+- **Demo Video:** ADD_YOUTUBE_OR_VIMEO_LINK_HERE
+
 ## Why Clara Exists
 
 After a medical visit, patients may receive multiple documents containing:
@@ -54,63 +61,3 @@ Google Agent Development Kit (ADK)
 Gemini via Vertex AI
   ↓
 Google Cloud Firestore
-```
-
-## Google Technologies Used
-
-- **Google Agent Development Kit (ADK)** — agent orchestration and tool use
-- **Gemini via Vertex AI** — reasoning and multi-document understanding
-- **Google Cloud Firestore** — persistent care-plan state
-- **Google Cloud Run** — deployed FastAPI backend
-- **Firebase Hosting** — deployed React frontend
-- **Google Cloud IAM / Service Accounts** — secure service-to-service authentication
-
-## Project Structure
-
-```text
-Clara-Agent-
-├── clara/                  # Backend + ADK agent
-│   └── README.md           # Backend technical documentation
-├── frontend/               # React/Vite frontend
-│   └── README.md           # Frontend technical documentation
-├── assets/
-│   └── clara-architecture.png
-└── README.md               # Project landing page
-```
-
-## Documentation
-
-- [Backend / Clara Agent](clara/README.md)
-- [Frontend](frontend/README.md)
-
-## Safety
-
-Clara is an AI healthcare navigation assistant, not a doctor.
-
-Clara does not:
-
-- diagnose medical conditions
-- prescribe medications
-- replace a healthcare professional
-- invent medical instructions
-- guess undocumented medication details
-
-Clara is designed to explain and organize information already documented by a patient's healthcare team.
-
-## Current Prototype
-
-The current Clara prototype supports:
-
-- multiple PDF and image uploads
-- combined document review
-- structured My Plan creation
-- medication-specific retrieval
-- pending-task filtering
-- task completion tracking
-- persistent Firestore state
-- Cloud Run backend deployment
-- Firebase-hosted frontend
-
-## Built For
-
-Google AI Agent Hackathon — 2026
